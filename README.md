@@ -9,8 +9,12 @@ This repository provides tutorial code for implementing classic deep learning al
 - Multilayer Perceptron
 
 **2. Convolutional Neural Networks**
-- LeNet-5
-- AlexNet
-- ResNet
-- VGG-16
+- Convolutional Neural Network
+- Image Classifcation
+- Object Detection
+- Semantic Segmentation
+- Neural Style Transfer
+
+**3. Recurrent Neural Networks**
+- Recurrent Neural Network
 
