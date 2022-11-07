@@ -4,7 +4,7 @@ This repository provides tutorial code for implementing classic deep learning al
 ## Table of Contents
 
 **1. Machine Learning**
-- Linear Regression
+- [Linear Regression](https://github.com/phpfontana/deep-learning-pytorch/blob/main/models/linear-regression.py)
 - Logistic Regression
 - Multilayer Perceptron
 
