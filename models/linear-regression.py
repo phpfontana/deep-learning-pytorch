@@ -9,21 +9,21 @@ torch.manual_seed(42)
 epochs = 200
 learning_rate = 0.01
 
-# Dummy dataset
+# X features
 start = 0
 end = 1
 step = 0.2
+X = torch.arange(start, end, step).unsqueeze(dim=1)  
 
-X = torch.arange(start, end, step).unsqueeze(dim=1)  # range of values for X
-
+# y labels
 weight = 0.7
 bias = 0.3
 y = weight * X + bias  # y outputs given X inputs and parameters (weight/bias)
 
-train_split = int(0.8 * len(X))  # defining train/validation split
-
+# Dummy dataset
+train_split = int(0.8 * len(X))  # Train/val split
 X_train, y_train = X[:train_split], y[:train_split]  # Training data
-X_val, y_val = X[train_split:], y[train_split:]  # Validation data
+X_val, y_val = X[train_split:], y[train_split:]  # Validation data 
 
 
 # Linear regression model
