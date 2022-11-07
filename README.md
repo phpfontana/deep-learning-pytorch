@@ -3,7 +3,7 @@
 This repository provides tutorial code for implementing classic deep learning algorithms using PyTorch.
 ## Table of Contents
 
-**1. Machine Learning**
+**1. Basic**
 - [Linear Regression](https://github.com/phpfontana/deep-learning-pytorch/blob/main/models/linear-regression.py)
 - Logistic Regression
 - Artificial Neural Network 
@@ -17,8 +17,10 @@ This repository provides tutorial code for implementing classic deep learning al
 - YOLO
 - U-Net
 
-**3. Recurrent Neural Networks**
+**3. Sequence Models**
 - Recurrent Neural Network
-- LSTM
+- Long Short Term Memory
+- Gated Recurrent Unit 
+- Bidirectional Recurrent Neural Network
 - Transformer
 
