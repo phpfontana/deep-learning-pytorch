@@ -1,6 +1,6 @@
 # Deep Learning w/ PyTorch
 
-This repository provides tutorial code for implementing classic deep learning algorithms as well as the current state of the art using PyTorch.
+This repository provides tutorial code for implementing classic deep learning algorithms using PyTorch.
 ## Table of Contents
 
 **1. Machine Learning**
@@ -10,11 +10,13 @@ This repository provides tutorial code for implementing classic deep learning al
 
 **2. Convolutional Neural Networks**
 - Convolutional Neural Network
-- Image Classifcation
-- Object Detection
-- Semantic Segmentation
-- Neural Style Transfer
+- LeNet5
+- AlexNet
+- ResNet
+- Inception
 
 **3. Recurrent Neural Networks**
 - Recurrent Neural Network
+- LSTM
+- Transformer
 
