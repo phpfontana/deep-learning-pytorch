@@ -6,7 +6,7 @@ This repository provides tutorial code for implementing classic deep learning al
 **1. Machine Learning**
 - [Linear Regression](https://github.com/phpfontana/deep-learning-pytorch/blob/main/models/linear-regression.py)
 - Logistic Regression
-- Artificial Neural Network
+- Artificial Neural Network (ANN)
 
 **2. Convolutional Neural Networks**
 - Convolutional Neural Network
