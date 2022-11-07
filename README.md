@@ -14,6 +14,8 @@ This repository provides tutorial code for implementing classic deep learning al
 - AlexNet
 - ResNet
 - Inception
+- YOLO
+- U-Net
 
 **3. Recurrent Neural Networks**
 - Recurrent Neural Network
