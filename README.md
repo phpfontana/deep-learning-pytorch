@@ -4,7 +4,7 @@ This repository provides tutorial code for implementing classic deep learning al
 ## Table of Contents
 
 **1. Basic Models**
-- Linear Regression
+- [Linear Regression](https://github.com/phpfontana/deep-learning-pytorch/blob/main/basic-models/linear-regression.py)
 - Logistic Regression
 - Shallow Neural Network
 - Deep Neural Network 
