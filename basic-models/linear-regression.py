@@ -56,12 +56,7 @@ model = LinearRegression()
 
 # 03. Training and evaluating
 # criterion and optimizer
-class MAELoss(nn.Module):
-    def forward(self, predicted: torch.Tensor, actual: torch.Tensor) -> torch.Tensor:
-        return torch.mean(torch.abs(predicted - actual))
-
-
-criterion = MAELoss()
+criterion = nn.L1Loss()  # MAE loss 
 optimizer = torch.optim.SGD(params=model.parameters(),  # Optimize model's parameters
                             lr=learning_rate)  # lr = Learning Rate
 
