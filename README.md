@@ -1,4 +1,4 @@
-# Deep Learning w/ PyTorch
+# Deep Learning 
 
 This repository provides tutorial code for implementing classic deep learning algorithms using PyTorch.
 ## Table of Contents
