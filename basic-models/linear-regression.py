@@ -4,6 +4,19 @@ from torch import nn
 import matplotlib.pyplot as plt
 import numpy as np
 
+# ================================================================== #
+#                         Table of Contents                          #
+# ================================================================== #
+
+# 1. Loading data
+# 2. Model building
+# 3. Training and evaluation
+# 4. Saving and loading model
+
+# ================================================================== #
+#                     1. Loading data                                #
+# ================================================================== #
+
 # Setting hyper parameters
 epochs = 200
 learning_rate = 0.01
@@ -31,8 +44,10 @@ X_train, y_train = X[:train_split], y[:train_split]
 
 X_val, y_val = X[train_split:], y[train_split:]
 
+# ================================================================== #
+#                     2. Model Building                              #
+# ================================================================== #
 
-# 02. Model Building
 # Linear regression model
 class LinearRegression(nn.Module):
     def __init__(self):
@@ -53,8 +68,10 @@ class LinearRegression(nn.Module):
 # Instance of the model
 model = LinearRegression()
 
+# ================================================================== #
+#                     3. Training and Evaluation                     #
+# ================================================================== #
 
-# 03. Training and evaluating
 # criterion and optimizer
 criterion = nn.L1Loss()  # MAE loss 
 optimizer = torch.optim.SGD(params=model.parameters(),  # Optimize model's parameters
@@ -108,7 +125,10 @@ plt.xlabel("Epochs")
 plt.legend()
 plt.show()
 
-# 04. Saving and Loading Model
+# ================================================================== #
+#                     4. Saving and Loading Model                    #
+# ================================================================== #
+
 # Save the model state dict
 torch.save(model.state_dict(), 'linear-regression.pt')
 
