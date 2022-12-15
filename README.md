@@ -10,6 +10,7 @@ To follow along with this tutorial, you will need the following:
 
 
 ## Table of Contents
+The tutorials in this repository cover a wide range of topics, including:
 
 **1. Basic Models**
 - [Linear Regression](https://github.com/phpfontana/deep-learning-pytorch/blob/main/basic-models/linear-regression.py)
