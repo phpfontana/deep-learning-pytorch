@@ -40,7 +40,7 @@ This tutorial is made available under the MIT License. Feel free to use and modi
 
 ## References
 
-The notebooks in this tutorial are heavily inspired by the official PyTorch tutorials, Andrew Ng's Deep Learning Specialization, and the following deep learning papers and books:
+The code tutorials are heavily inspired by the official PyTorch tutorials, Andrew Ng's Deep Learning Specialization, and the following deep learning papers and books:
 - Deep Learning Specialization : https://www.coursera.org/specializations/deep-learning
 - PyTorch tutorials: https://pytorch.org/tutorials/
 - "Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville (https://www.deeplearningbook.org/)
