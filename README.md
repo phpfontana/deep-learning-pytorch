@@ -1,6 +1,14 @@
-# Deep Learning 
+# Deep Learning w/ PyTorch
+This repository contains a tutorial on deep learning using PyTorch. It covers the basics of deep learning and how to train and evaluate deep learning models using PyTorch.
 
-This repository provides tutorial code for implementing classic deep learning algorithms using PyTorch.
+### Prerequisites
+
+To follow along with this tutorial, you will need the following:
+
+- Basic knowledge of deep learning concepts and Python programming
+- A computer with a recent version of PyTorch installed
+
+
 ## Table of Contents
 
 **1. Basic Models**
@@ -25,3 +33,17 @@ This repository provides tutorial code for implementing classic deep learning al
 - Bidirectional Recurrent Neural Network
 - Transformer
 
+## License
+
+This tutorial is made available under the MIT License. Feel free to use and modify the code as you see fit.
+
+## References
+
+The notebooks in this tutorial are heavily inspired by the official PyTorch tutorials and the following deep learning papers and books:
+
+- PyTorch tutorials: https://pytorch.org/tutorials/
+- "Deep Learning" by Ian Goodfellow, Yoshua Bengio, and Aaron Courville (https://www.deeplearningbook.org/)
+
+## Feedback
+
+If you have any suggestions or questions about this tutorial, please open an issue or contact me directly. Your feedback is greatly appreciated!
